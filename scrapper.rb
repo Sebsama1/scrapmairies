@@ -3,7 +3,7 @@ require 'open-uri'
 require 'mechanize'
 require 'rubygems'
 
-
+#Donne le nom et l'email de la mairie quand on est sur le lien.
 def get_the_email_of_a_townhal_from_its_webpage(source)
 
 doc = Nokogiri::HTML(open(source))
